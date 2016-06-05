@@ -78,6 +78,7 @@ static NSString * const kStatus = @"status";
 @end
 
 @implementation ASVideoNode
+@dynamic delegate;
 
 // TODO: Support preview images with HTTP Live Streaming videos.
 
